@@ -5584,6 +5584,7 @@ function SettingsModule({ config, onExport, onImport, onReset }) {
     </div>
   );
 }
+export default RDXControl; 
 
 /* ============================================================
    SHARED
