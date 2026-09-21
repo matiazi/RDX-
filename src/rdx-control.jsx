@@ -6,7 +6,7 @@ import {
   ChevronDown, ChevronUp, Flag, Repeat, AlertCircle, Package, Briefcase, Calendar, Users
 } from "lucide-react";
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from "recharts";
-
+export default RDXControl;
 /* ============================================================
    RDX CONTROL — V2
    Objetivos → Etapas → Atividades  |  Capital-Tempo em horas
@@ -5584,7 +5584,7 @@ function SettingsModule({ config, onExport, onImport, onReset }) {
     </div>
   );
 }
-export default RDXControl; 
+
 
 /* ============================================================
    SHARED
